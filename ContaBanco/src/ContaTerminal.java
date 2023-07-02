@@ -1,6 +1,5 @@
 
 //Conhecer e importar a class Scanner.
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ContaTerminal {
