@@ -27,8 +27,7 @@ public class ContaTerminal {
         float saldoConta = Float.valueOf(sc.next());
 
         // Exibir as mensagens de conta criada.
-        System.out.print(nomeTitular + ",\n" +
-                "Obrigado por criar uma conta em nosso banco.\n" +
+        System.out.print(nomeTitular + ", obrigado por criar uma conta em nosso banco.\n" +
                 "Sua agência é: " + numeroAgencia + " e conta é: " + numeroConta + "\n" +
                 "Seu saldo de ");
         System.out.printf("%.2f",saldoConta);
